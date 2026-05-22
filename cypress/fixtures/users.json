@@ -1,0 +1,8 @@
+{
+  "student": {
+    "firstName": "Juan",
+    "lastName": "Chacon",
+    "email": "juan@test.com",
+    "mobileNumber": "9876543210"
+  }
+}
