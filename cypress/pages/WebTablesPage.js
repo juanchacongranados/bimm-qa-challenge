@@ -1,5 +1,4 @@
 class WebTablesPage {
-
   visit() {
     cy.visit("/webtables");
   }

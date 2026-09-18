@@ -1,13 +1,15 @@
-const { defineConfig } = require('cypress')
+const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  allowCypressEnv: false,
+
   e2e: {
-    baseUrl: 'https://demoqa.com',
-    specPattern: 'cypress/e2e/**/*.cy.js',
-    supportFile: 'cypress/support/e2e.js',
+    baseUrl: "https://demoqa.com",
+    specPattern: "cypress/e2e/**/*.cy.js",
+    supportFile: "cypress/support/e2e.js",
 
     defaultCommandTimeout: 8000,
-    pageLoadTimeout: 10000,
+    pageLoadTimeout: 30000,
 
     viewportWidth: 1440,
     viewportHeight: 900,
@@ -15,4 +17,4 @@ module.exports = defineConfig({
     video: false,
     screenshotOnRunFailure: true,
   },
-})
+});

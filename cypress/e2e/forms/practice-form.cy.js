@@ -24,6 +24,8 @@ describe("Practice Form", () => {
       PracticeFormPage.submitForm();
 
       PracticeFormPage.verifySubmissionModal();
+
+      PracticeFormPage.verifySubmittedStudent(student);
     });
   });
 
